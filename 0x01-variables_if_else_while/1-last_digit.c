@@ -1,6 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include <stdio.h)
 /**
  * main - Entry
  *
@@ -9,20 +7,26 @@
 int main(void)
 
 {
-	int n;
+int digit1, digit2;
+	
+for(digit1 = 0; digit2 < 9; digit++)
+{
+for(digit2 = digit1 + 1; digit2 < 10; digit2++)
+{
+	putchar(digit1 % 10) + 0);
+	putchar(digit2 % 10) + '0');
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	if (digit1 == 8 && digit2 == 9);
+       continue;
 
-	if (n % 10 > 5)
-		printf("Last digit of %i is %i and is greater than 5\n", n, n % 10);
+       putchar(',');
+       putchar(' ');
+}
+}
 
-	else if (n % 10 == 0)
-		printf("Last digit of %i is %i and is 0\n", n, n % 10);
+       putchar('\n');
 
-	else
-		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
-
-	return (0);
+       retirn (0);
 
 }
+
