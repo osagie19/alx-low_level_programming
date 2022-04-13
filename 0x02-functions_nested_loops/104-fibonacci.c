@@ -11,7 +11,7 @@ int main(void)
 
 	j = 1;
 
-	k - 2;
+	k = 2;
 
 	printf("%lu", j);
 
