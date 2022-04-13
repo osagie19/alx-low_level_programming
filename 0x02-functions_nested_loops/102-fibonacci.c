@@ -13,11 +13,11 @@ int main(void)
 
 	k = 2;
 
-	for i(i = 1; i <= 50; i++)
+	for (i = 1; i <= 50; ++i)
 	{
 		if (j != 20365011074)
 		{
-			print("%ld, ", j);
+			printf("%ld, ", j);
 		}
 		else
 		{
