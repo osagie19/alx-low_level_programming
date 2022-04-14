@@ -10,7 +10,7 @@ int main(void)
 	int i;
 
 	i = 0;
-	positive_or_negatiive(int i);
+	positive_or_negatiive(i);
 
 	return (0);
 
